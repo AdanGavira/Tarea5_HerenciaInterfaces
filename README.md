@@ -50,12 +50,12 @@ Clases Principales:
 
 
 # 📊 Diferencias Clave
-Aspecto:	        extends Thread	                                       implements Runnable
-Relación:	        "ES UN" Thread	                                       "TIENE UNA" tarea Runnable
-Herencia:	        Usa la herencia de clases	                             Usa implementación de interfaz
-Flexibilidad:	    Limitada (no puede heredar otra clase)	               Alta (puede heredar otra clase)
-Reutilización:	  Menor (está ligado a Thread)	                        Mayor (la tarea es separada del hilo)
-Inicialización:	  Directa: objeto.start()	                              Indirecta: new Thread(objeto).start()
+- Aspecto:	        - extends Thread	                                       - implements Runnable
+- Relación:	        - "ES UN" Thread	                                       - "TIENE UNA" tarea Runnable
+- Herencia:	        - Usa la herencia de clases	                             - Usa implementación de interfaz
+- Flexibilidad:	    - Limitada (no puede heredar otra clase)	               - Alta (puede heredar otra clase)
+- Reutilización:	  - Menor (está ligado a Thread)	                        - Mayor (la tarea es separada del hilo)
+- Inicialización:	  - Directa: objeto.start()	                              - Indirecta: new Thread(objeto).start()
 
 # 📝 Ejemplo de Salida Esperada
 
@@ -97,11 +97,11 @@ No es posible. Java solo permite herencia simple de clases. Pikachu ya hereda de
 
 
 # 🎮 Analogía Pokémon
-Concepto Técnico	                          Analogía Pokémon
-extends Thread	                  Pikachu ES UN corredor (se especializa en correr)
-implements Runnable	              Charizard TIENE UNA misión de vuelo (puede hacer otras cosas)
-Thread.sleep()	                  Descansar durante la carrera/misión
-InterruptedException	            ¡Se tropezó! / ¡Le dio el viento!
+- Concepto Técnico	                          - Analogía Pokémon
+- extends Thread	                    - Pikachu ES UN corredor (se especializa en correr)
+- implements Runnable	              - Charizard TIENE UNA misión de vuelo (puede hacer otras cosas)
+- Thread.sleep()	                  - Descansar durante la carrera/misión
+- InterruptedException	            - ¡Se tropezó! / ¡Le dio el viento!
 
 
 # 🛠️ Buenas Prácticas
